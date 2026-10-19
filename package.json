@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "vitepress": "^1.6.4",
+    "esbuild": ">=0.25.0"
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  }
+}
