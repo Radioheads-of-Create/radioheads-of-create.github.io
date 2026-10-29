@@ -12,4 +12,7 @@ features:
   - title: Airwaves
     details: A realisticish radio mod for Create
     link: ./airwaves
+  - title: Airwaves FAQ
+    details: Common questions about Airwaves
+    link: ./faq
 ---
