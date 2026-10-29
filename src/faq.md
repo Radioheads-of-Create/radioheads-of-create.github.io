@@ -35,6 +35,9 @@ There are a **lot** of changes. Circuit boards will be simulated instead of hard
 There is currently one way to obtain dev builds, and that is on the (Radioheads of Create)[https://discord.gg/rp6fK7F92Z] Discord server. 
 GitHub releases will be setup soon so you do not need to join the Discord server (all progress updates, announcements, and more are there, including all dev builds.)
 
+### Could I help translate the project?
+**Yes!** There is a Crowdin translaton project that you can help out on [here](https://crowdin.com/project/create-airwaves)
+
 ### Is (insert mod here) supported?
 Airwaves will have full addon support and be fully documented. We will have some integrations with basic mods.
 Some current integrated mods are:
