@@ -59,12 +59,6 @@ public static final AirwaveModulations MAGICAL = MY_REGISTRATE.modulation("magic
 ).register()
 ```
 
-## Tier
-to be done
-
-## Antenna Type
-to be done
-
 ## Cable Type
 Cables are used to transmit signals over wire to antennas and more.
 
