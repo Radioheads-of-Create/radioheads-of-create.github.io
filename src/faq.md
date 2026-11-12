@@ -12,14 +12,14 @@ description: "Airwaves FAQ"
 # Airwaves FAQ
 
 ### What is Airwaves?
-Airwaves is a realisticish radio mod for Create and Minecraft. It allows players to broadcast radio in a world, and even to other dimensions. Airwaves offers a ton of new content for Create. This mod is also a full remake of the original mod, Create: Airwaves, that has been fully deleted for many reasons.
+Airwaves is a realisticish radio mod for Create and Minecraft. It allows players to broadcast radio in a world, and even to other dimensions. Airwaves offers a ton of new content for Create. This mod is also a full remake of the original mod, Create: Airwaves, which has been fully deleted for many reasons.
 
 ### What happened with the old mod? 
 The old mod was deleted by its "author," as the person who "made it" told me they got "tired" of it and deleted it. 
 Another unofficial reason is that it was vibecoded (it was), and they ran out of tokens and deleted it.
 
 ### Is this mod vibecoded?
-**No**, due to the license, using generative AI is strictly prohibited. See [CONTRIBUTING.md](https://github.com/Radioheads-of-Create/Airwaves/?tab=contributing-ov-file). 
+**No**, due to the license, using generative AI is strictly prohibited. See [CONTRIBUTING.md](https://github.com/Radioheads-of-Create/Airwaves/?tab=contributing-ov-file). We also all very much dislike the use of generative AI.
 
 ### Will my world with the old mod still work?
 **No**, this mod is a **full rewrite** of the mod, including many drastic changes. Worlds with the old mod will **not** work.
@@ -42,11 +42,5 @@ GitHub releases will be set up soon, so you do not need to join the Discord serv
 Short answer: No. Forge is so bad to mod on these days, and most mods don't support `1.20.1` anymore, and it's just not worthwhile to maintain that version.
 
 ### Is (insert mod here) supported?
-Airwaves will have full addon support and be fully documented. We will have some integrations with basic mods.
-Some current integrated mods are:
-- Sable (Aeronautics)
-- Computer Craft: Tweaked
-- The Factory Must Grow (Community Edition for some recipe compatibility)
-- KubeJS
-- Curios
-- Analog Audio (For playing music on air)
+Airwaves will have support for some common popular mods (Sable/Aeronautics, for example). 
+There will be documentation for integration with other mods.
