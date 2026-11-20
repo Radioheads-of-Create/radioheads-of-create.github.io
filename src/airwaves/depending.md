@@ -1,5 +1,5 @@
 ---
-airwaves_version: 1.0.0
+airwaves_version: 0.0.1
 minecraft_version: 1.21.1
 
 prev:
@@ -15,11 +15,16 @@ description: Depending on Airwaves
 
 ```groovy [build.gradle]
 repositories {
-    maven { url = "https://insert.maven.here" }
+    maven {
+        url = "https://maven.wolfieboy.dev"
+        content {
+            includeGroup("dev.radioheads.airwaves")
+        }
+    }
 }
 
 dependencies {
-    implementation("dev.radioheads:airwaves:${minecraft_version}-${airwaves_version}")
+    implementation("dev.radioheads.airwaves:airwaves:${minecraft_version}-${airwaves_version}}")
 }
 ```
 
@@ -28,11 +33,13 @@ And in your `gradle.properties` file:
 airwaves_version={{ $frontmatter.airwaves_version }}
 ```
 
+For pulling dev builds, attach `-build.<number>` to the version
+
 ### Production Environment Dependency
 
 This type of dependency is added to the `neoforge.mods.toml` file so that NeoForge knows your mod will not work without a certain
 version of Airwaves. This type of dependency is only useful if a development environment dependency was also added. This
-type of dependency should not be added if your mod is able to work in a production environment without Airwaves.
+type of dependency should not be added if your mod can work in a production environment without Airwaves.
 
 #### Configuration
 
